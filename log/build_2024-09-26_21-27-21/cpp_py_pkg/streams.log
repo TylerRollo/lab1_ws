@@ -1,0 +1,41 @@
+[0.017s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[0.047s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.246s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.244s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.401s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[5.402s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[5.488s] -- Configuring done
+[5.491s] -- Generating done
+[5.492s] -- Build files have been written to: /home/tyler/lab1_ws/build/cpp_py_pkg
+[5.517s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[5.551s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tyler/lab1_ws/build/cpp_py_pkg
+[5.561s] -- Install configuration: ""
+[5.561s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.sh
+[5.562s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.dsv
+[5.562s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg
+[5.562s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/module_to_import.py
+[5.562s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/__init__.py
+[5.587s] Listing '/home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg'...
+[5.590s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/cpp_py_pkg/talker.py
+[5.591s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/cpp_py_pkg/relay.py
+[5.591s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_py_pkg
+[5.591s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_py_pkg
+[5.591s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.sh
+[5.592s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.dsv
+[5.592s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.sh
+[5.592s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.dsv
+[5.592s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.bash
+[5.593s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.sh
+[5.593s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.zsh
+[5.593s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.dsv
+[5.593s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.dsv
+[5.593s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/packages/cpp_py_pkg
+[5.593s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig.cmake
+[5.593s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig-version.cmake
+[5.593s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.xml
+[5.595s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tyler/lab1_ws/build/cpp_py_pkg

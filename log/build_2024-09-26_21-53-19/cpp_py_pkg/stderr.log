@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:61 (file):
+  file INSTALL cannot find
+  "/home/tyler/lab1_ws/src/cpp_py_pkg/scripts/py_node.py": No such file or
+  directory.
+
+

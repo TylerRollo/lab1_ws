@@ -1,0 +1,5 @@
+[0.378s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[0.436s] CMake Error: The source directory "/home/tyler/lab1_ws/src/cpp_py_pkg" does not exist.
+[0.436s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.438s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.440s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '2': /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8

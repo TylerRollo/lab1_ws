@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000990] (cpp_py_pkg) JobQueued: {'identifier': 'cpp_py_pkg', 'dependencies': OrderedDict()}
+[0.001068] (cpp_py_pkg) JobStarted: {'identifier': 'cpp_py_pkg'}
+[0.015330] (cpp_py_pkg) JobProgress: {'identifier': 'cpp_py_pkg', 'progress': 'cmake'}
+[0.016451] (cpp_py_pkg) JobProgress: {'identifier': 'cpp_py_pkg', 'progress': 'build'}
+[0.018590] (cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tyler/lab1_ws/build/cpp_py_pkg', '--', '-j8', '-l8'], 'cwd': '/home/tyler/lab1_ws/build/cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tyler'), ('GIT_ASKPASS', '/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tyler'), ('OLDPWD', '/home/tyler'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d8ff2d83-6bff-4251-a6ad-77fa188354ec.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tyler/lab1_ws/install:/home/tyler/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tyler'), ('NAME', 'LAPTOP-4AH6M1ML'), ('WSL_INTEROP', '/run/WSL/1014_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/tyler/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/tjbas/Downloads/apache-maven-3.8.6-bin:/mnt/c/WinLabMinGW/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tjbas/Desktop/Flex/win_flex_bison-latest:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/pillo/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/d/doxygen/bin:/mnt/c/Users/tjbas/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/tjbas/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/tjbas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tjbas/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tjbas/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5bbfded009.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/tyler/install/f1tenth_gym_ros:/home/tyler/install/cpp_py_pkg:/home/tyler/lab1_ws/install/cpp_py_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tyler/lab1_ws/build/cpp_py_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tyler/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/tyler/install/f110_gym/lib/python3.8/site-packages:/home/tyler/install/cpp_py_pkg/lib/python3.8/site-packages:/home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tyler/install/cpp_py_pkg:/home/tyler/lab1_ws/install/cpp_py_pkg:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.049033] (cpp_py_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.071937] (cpp_py_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099720] (-) TimerEvent: {}
+[0.200136] (-) TimerEvent: {}
+[0.251351] (cpp_py_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.300293] (-) TimerEvent: {}
+[0.400696] (-) TimerEvent: {}
+[0.499467] (cpp_py_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500830] (-) TimerEvent: {}
+[0.502419] (cpp_py_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600977] (-) TimerEvent: {}
+[0.701335] (-) TimerEvent: {}
+[0.801684] (-) TimerEvent: {}
+[0.902103] (-) TimerEvent: {}
+[1.002515] (-) TimerEvent: {}
+[1.103192] (-) TimerEvent: {}
+[1.203824] (-) TimerEvent: {}
+[1.304176] (-) TimerEvent: {}
+[1.404565] (-) TimerEvent: {}
+[1.504938] (-) TimerEvent: {}
+[1.605286] (-) TimerEvent: {}
+[1.705689] (-) TimerEvent: {}
+[1.806049] (-) TimerEvent: {}
+[1.906466] (-) TimerEvent: {}
+[2.006878] (-) TimerEvent: {}
+[2.107312] (-) TimerEvent: {}
+[2.207757] (-) TimerEvent: {}
+[2.308121] (-) TimerEvent: {}
+[2.408492] (-) TimerEvent: {}
+[2.508859] (-) TimerEvent: {}
+[2.609270] (-) TimerEvent: {}
+[2.709642] (-) TimerEvent: {}
+[2.809995] (-) TimerEvent: {}
+[2.910659] (-) TimerEvent: {}
+[3.011052] (-) TimerEvent: {}
+[3.111444] (-) TimerEvent: {}
+[3.212058] (-) TimerEvent: {}
+[3.313136] (-) TimerEvent: {}
+[3.413584] (-) TimerEvent: {}
+[3.513986] (-) TimerEvent: {}
+[3.614424] (-) TimerEvent: {}
+[3.714775] (-) TimerEvent: {}
+[3.815238] (-) TimerEvent: {}
+[3.915729] (-) TimerEvent: {}
+[4.016387] (-) TimerEvent: {}
+[4.116795] (-) TimerEvent: {}
+[4.217209] (-) TimerEvent: {}
+[4.317575] (-) TimerEvent: {}
+[4.417956] (-) TimerEvent: {}
+[4.518382] (-) TimerEvent: {}
+[4.618800] (-) TimerEvent: {}
+[4.719255] (-) TimerEvent: {}
+[4.819607] (-) TimerEvent: {}
+[4.919999] (-) TimerEvent: {}
+[5.020333] (-) TimerEvent: {}
+[5.120672] (-) TimerEvent: {}
+[5.221014] (-) TimerEvent: {}
+[5.321369] (-) TimerEvent: {}
+[5.421728] (-) TimerEvent: {}
+[5.522075] (-) TimerEvent: {}
+[5.622429] (-) TimerEvent: {}
+[5.722869] (-) TimerEvent: {}
+[5.823274] (-) TimerEvent: {}
+[5.923760] (-) TimerEvent: {}
+[6.024311] (-) TimerEvent: {}
+[6.124729] (-) TimerEvent: {}
+[6.225050] (-) TimerEvent: {}
+[6.240299] (cpp_py_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.297062] (cpp_py_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.298738] (cpp_py_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.325206] (-) TimerEvent: {}
+[6.425576] (-) TimerEvent: {}
+[6.469830] (cpp_py_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[6.470025] (cpp_py_pkg) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[6.525733] (-) TimerEvent: {}
+[6.563960] (cpp_py_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.566993] (cpp_py_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[6.568302] (cpp_py_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/tyler/lab1_ws/build/cpp_py_pkg\n'}
+[6.593827] (cpp_py_pkg) CommandEnded: {'returncode': 0}
+[6.616696] (cpp_py_pkg) JobProgress: {'identifier': 'cpp_py_pkg', 'progress': 'install'}
+[6.625951] (-) TimerEvent: {}
+[6.631667] (cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tyler/lab1_ws/build/cpp_py_pkg'], 'cwd': '/home/tyler/lab1_ws/build/cpp_py_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tyler'), ('GIT_ASKPASS', '/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tyler'), ('OLDPWD', '/home/tyler'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d8ff2d83-6bff-4251-a6ad-77fa188354ec.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tyler/lab1_ws/install:/home/tyler/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tyler'), ('NAME', 'LAPTOP-4AH6M1ML'), ('WSL_INTEROP', '/run/WSL/1014_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/tyler/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/tyler/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/tjbas/Downloads/apache-maven-3.8.6-bin:/mnt/c/WinLabMinGW/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tjbas/Desktop/Flex/win_flex_bison-latest:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/pillo/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/d/doxygen/bin:/mnt/c/Users/tjbas/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/tjbas/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/tjbas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tjbas/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tjbas/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5bbfded009.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/tyler/install/f1tenth_gym_ros:/home/tyler/install/cpp_py_pkg:/home/tyler/lab1_ws/install/cpp_py_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tyler/lab1_ws/build/cpp_py_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tyler/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/tyler/install/f110_gym/lib/python3.8/site-packages:/home/tyler/install/cpp_py_pkg/lib/python3.8/site-packages:/home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tyler/install/cpp_py_pkg:/home/tyler/lab1_ws/install/cpp_py_pkg:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[6.642826] (cpp_py_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.643141] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.sh\n'}
+[6.643447] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.dsv\n'}
+[6.643602] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg\n'}
+[6.643702] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/module_to_import.py\n'}
+[6.643794] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/__init__.py\n'}
+[6.673755] (cpp_py_pkg) StdoutLine: {'line': b"Listing '/home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg'...\n"}
+[6.677437] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/cpp_py_pkg/talker.py\n'}
+[6.677790] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/cpp_py_pkg/relay.py\n'}
+[6.677863] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/\n'}
+[6.677923] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg//__pycache__\n'}
+[6.678014] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg//__pycache__/lab1_launch.cpython-38.pyc\n'}
+[6.678194] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg//lab1_launch.py\n'}
+[6.678469] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_py_pkg\n'}
+[6.678562] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_py_pkg\n'}
+[6.678810] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.sh\n'}
+[6.678902] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.dsv\n'}
+[6.679220] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.sh\n'}
+[6.679461] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.dsv\n'}
+[6.679721] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.bash\n'}
+[6.679791] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.sh\n'}
+[6.679850] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.zsh\n'}
+[6.679906] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.dsv\n'}
+[6.680053] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.dsv\n'}
+[6.680157] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/packages/cpp_py_pkg\n'}
+[6.680332] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig.cmake\n'}
+[6.680493] (cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig-version.cmake\n'}
+[6.680591] (cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.xml\n'}
+[6.683571] (cpp_py_pkg) CommandEnded: {'returncode': 0}
+[6.725493] (cpp_py_pkg) JobEnded: {'identifier': 'cpp_py_pkg', 'rc': 0}
+[6.726769] (-) TimerEvent: {}
+[6.726940] (-) EventReactorShutdown: {}

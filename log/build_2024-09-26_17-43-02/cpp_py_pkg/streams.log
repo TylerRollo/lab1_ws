@@ -1,0 +1,65 @@
+[0.038s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tyler/lab1_ws/src/cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/tyler/lab1_ws/install/cpp_py_pkg
+[0.800s] -- The C compiler identification is GNU 9.4.0
+[1.399s] -- The CXX compiler identification is GNU 9.4.0
+[1.604s] -- Check for working C compiler: /usr/bin/cc
+[1.997s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.000s] -- Detecting C compiler ABI info
+[2.255s] -- Detecting C compiler ABI info - done
+[2.267s] -- Detecting C compile features
+[2.268s] -- Detecting C compile features - done
+[2.273s] -- Check for working CXX compiler: /usr/bin/c++
+[2.483s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.484s] -- Detecting CXX compiler ABI info
+[2.663s] -- Detecting CXX compiler ABI info - done
+[2.675s] -- Detecting CXX compile features
+[2.675s] -- Detecting CXX compile features - done
+[2.701s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.740s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.740s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.060s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.973s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.988s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.530s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.356s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.384s] -- Looking for pthread.h
+[12.732s] -- Looking for pthread.h - found
+[12.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.941s] -- Looking for pthread_create in pthreads
+[13.116s] -- Looking for pthread_create in pthreads - not found
+[13.116s] -- Looking for pthread_create in pthread
+[13.458s] -- Looking for pthread_create in pthread - found
+[13.461s] -- Found Threads: TRUE  
+[14.009s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[14.017s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[14.124s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[14.235s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.237s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.238s] -- Configured cppcheck include dirs: /home/tyler/lab1_ws/src/cpp_py_pkg/include
+[14.238s] -- Configured cppcheck exclude dirs and/or files: 
+[14.242s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.242s] -- Configured cpplint exclude dirs and/or files: 
+[14.243s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.244s] -- Added test 'lint_cmake' to check CMake code style
+[14.245s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.247s] -- Added test 'uncrustify' to check C / C++ code style
+[14.247s] -- Configured uncrustify additional arguments: 
+[14.250s] -- Added test 'xmllint' to check XML markup files
+[14.254s] -- Configuring done
+[14.299s] -- Generating done
+[14.300s] -- Build files have been written to: /home/tyler/lab1_ws/build/cpp_py_pkg
+[14.315s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tyler/lab1_ws/src/cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/tyler/lab1_ws/install/cpp_py_pkg
+[14.319s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[14.376s] [35m[1mScanning dependencies of target cpp_exec[0m
+[14.399s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exec.dir/src/cpp_node.cpp.o[0m
+[14.445s] [100%] [32m[1mLinking CXX executable cpp_exec[0m
+[14.679s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[14.679s] (.text+0x24): undefined reference to `main'
+[14.679s] collect2: error: ld returned 1 exit status
+[14.683s] make[2]: *** [CMakeFiles/cpp_exec.dir/build.make:131: cpp_exec] Error 1
+[14.684s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_exec.dir/all] Error 2
+[14.684s] make: *** [Makefile:141: all] Error 2
+[14.688s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8

@@ -1,0 +1,24 @@
+[0.381s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[0.382s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.382s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.382s] Traceback (most recent call last):
+[0.382s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.382s]     from ament_package.templates import get_environment_hook_template_path
+[0.382s] ModuleNotFoundError: No module named 'ament_package'
+[0.383s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.383s]   execute_process(/usr/bin/python3
+[0.383s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.383s]   /home/tyler/lab1_ws/build/cpp_py_pkg/ament_cmake_package_templates/templates.cmake)
+[0.383s]   returned error code 1
+[0.383s] Call Stack (most recent call first):
+[0.383s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.383s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.384s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.384s]   CMakeLists.txt:19 (find_package)
+[0.384s] 
+[0.384s] 
+[0.384s] -- Configuring incomplete, errors occurred!
+[0.385s] See also "/home/tyler/lab1_ws/build/cpp_py_pkg/CMakeFiles/CMakeOutput.log".
+[0.385s] See also "/home/tyler/lab1_ws/build/cpp_py_pkg/CMakeFiles/CMakeError.log".
+[0.385s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.386s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '2': /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8

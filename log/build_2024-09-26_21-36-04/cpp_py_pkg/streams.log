@@ -1,0 +1,45 @@
+[0.026s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[0.048s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.250s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.501s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.296s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.469s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[6.469s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[6.563s] -- Configuring done
+[6.566s] -- Generating done
+[6.567s] -- Build files have been written to: /home/tyler/lab1_ws/build/cpp_py_pkg
+[6.593s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[6.632s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/tyler/lab1_ws/build/cpp_py_pkg
+[6.642s] -- Install configuration: ""
+[6.642s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.sh
+[6.642s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.dsv
+[6.643s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg
+[6.643s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/module_to_import.py
+[6.643s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/__init__.py
+[6.673s] Listing '/home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg'...
+[6.677s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/cpp_py_pkg/talker.py
+[6.677s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/cpp_py_pkg/relay.py
+[6.677s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/
+[6.677s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg//__pycache__
+[6.677s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg//__pycache__/lab1_launch.cpython-38.pyc
+[6.677s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg//lab1_launch.py
+[6.677s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_py_pkg
+[6.678s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_py_pkg
+[6.678s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.sh
+[6.678s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.dsv
+[6.678s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.sh
+[6.679s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.dsv
+[6.679s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.bash
+[6.679s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.sh
+[6.679s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.zsh
+[6.679s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.dsv
+[6.679s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.dsv
+[6.679s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/ament_index/resource_index/packages/cpp_py_pkg
+[6.679s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig.cmake
+[6.679s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig-version.cmake
+[6.680s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.xml
+[6.683s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/tyler/lab1_ws/build/cpp_py_pkg

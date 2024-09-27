@@ -1,0 +1,29 @@
+[0.022s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[0.057s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.297s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.998s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.604s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.605s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.795s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[8.795s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[8.905s] -- Configuring done
+[8.908s] -- Generating done
+[8.911s] -- Build files have been written to: /home/tyler/lab1_ws/build/cpp_py_pkg
+[8.946s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/tyler/lab1_ws/build/cpp_py_pkg -- -j8 -l8
+[9.004s] Invoking command in '/home/tyler/lab1_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/tyler/lab1_ws/build/cpp_py_pkg
+[9.014s] -- Install configuration: ""
+[9.014s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.sh
+[9.014s] -- Installing: /home/tyler/lab1_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.dsv
+[9.014s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg
+[9.015s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/module_to_import.py
+[9.015s] -- Up-to-date: /home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg/__init__.py
+[9.058s] Listing '/home/tyler/lab1_ws/install/cpp_py_pkg/lib/python3.8/site-packages/cpp_py_pkg'...
+[9.065s] CMake Error at cmake_install.cmake:61 (file):
+[9.065s]   file INSTALL cannot find "/home/tyler/lab1_ws/src/cpp_py_pkg/TARGETS": No
+[9.065s]   such file or directory.
+[9.065s] 
+[9.065s] 
+[9.067s] Invoked command in '/home/tyler/lab1_ws/build/cpp_py_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tyler/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/tyler/lab1_ws/build/cpp_py_pkg
