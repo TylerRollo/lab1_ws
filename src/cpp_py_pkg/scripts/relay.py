@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import rclpy
 from rclpy.node import Node
 from ackermann_msgs.msg import AckermannDriveStamped
@@ -29,6 +31,7 @@ class Relay(Node):
 
         # Publish the modified message to the 'drive_relay' topic
         self.publisher_.publish(new_msg)
+        self.get_logger().info(f'Relayed: speed={new_msg.drive.speed}, steering_angle={new_msg.drive.steering_angle}')
 
 def main(args=None):
     rclpy.init(args=args)

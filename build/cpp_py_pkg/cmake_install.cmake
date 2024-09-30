@@ -59,7 +59,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_py_pkg" TYPE PROGRAM FILES
-    "/home/tyler/lab1_ws/src/cpp_py_pkg/scripts/py_node.py"
     "/home/tyler/lab1_ws/src/cpp_py_pkg/scripts/talker.py"
     "/home/tyler/lab1_ws/src/cpp_py_pkg/scripts/relay.py"
     )

@@ -30,7 +30,6 @@ ament_python_install_package(${PROJECT_NAME})
 
 # Install Py executables (Add talker.py and relay.py)
 install(PROGRAMS
-  scripts/py_node.py
   scripts/talker.py       # Add talker.py here
   scripts/relay.py        # Add relay.py here
   DESTINATION lib/${PROJECT_NAME}
