@@ -8,6 +8,7 @@ def generate_launch_description():
             package='cpp_py_pkg', 
             executable='talker.py',      
             name='talker',
+            output='screen',
             parameters=[
                 {'v': 1.0},  
                 {'d': 0.5}   
@@ -18,6 +19,7 @@ def generate_launch_description():
         Node(
             package='cpp_py_pkg',  
             executable='relay.py',           # Name of the relay node executable/script
-            name='relay'
+            name='relay',
+            output='screen'
         ),
     ])
